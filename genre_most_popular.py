@@ -65,7 +65,7 @@ class GenreMostPopular:
 
         print("Writing answers...")
         answers = self._generate_answers(song_meta_json, train_data, questions)
-        write_json(answers, "results/results.json")
+        write_json(answers, "results/genre_most_popular_results.json")
 
 
 if __name__ == "__main__":
